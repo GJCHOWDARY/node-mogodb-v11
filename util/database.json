@@ -1,0 +1,33 @@
+{
+	"development":{
+    "driver": "mysql",
+		"host": "localhost",
+    "port": 3306,
+    "database": "node_honey",
+    "username": "chowdary",
+    "password": "CHOW@dary@19",
+		"region": "ap-south-1",
+    "key": "3FSnFCJ605LrcZxvate4niim5hPQyj57YBbi1Kbz",
+    "keyId": "AKIAJGZOWHN7UHPT47OQ"
+	},
+	"testing":{
+        "driver": "mysql",
+		"host": "shopayetesting.cnllobdiywch.ap-south-1.rds.amazonaws.com",
+        "port": 3306,
+        "database": "shopaye_testing",
+        "username": "shopaye_user",
+        "password": "ShopayeTesting2016",
+		    "key": "3FSnFCJ605LrcZxvate4niim5hPQyj57YBbi1Kbz",
+		    "keyId": "AKIAJGZOWHN7UHPT47OQ"
+	},
+	"production":{
+        "driver": "mysql",
+		"host": "localhost",
+        "port": 3306,
+        "database": "shopaye_production",
+        "username": "shopaye",
+        "password": "root",
+		    "key": "3FSnFCJ605LrcZxvate4niim5hPQyj57YBbi1Kbz",
+		    "keyId": "AKIAJGZOWHN7UHPT47OQ"
+	}
+}
